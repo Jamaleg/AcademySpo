@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+    direction: rtl;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    background: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #F89C1C; /* لون البرتقالي من الشعار */
+}
+
+.header p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #F89C1C; /* لون البرتقالي من الشعار */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background: #cc7a0d;
+}
+
+.benefits, .contact {
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+}
+
+.benefits ul {
+    list-style: none;
+    padding: 0;
+}
+
+.benefits li {
+    background: #e4e4e4;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.contact label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #F89C1C; /* لون البرتقالي من الشعار */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.contact button:hover {
+    background: #cc7a0d;
+}
+
+.footer {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.thank-you-message {
+    text-align: center;
+    padding: 50px;
+    font-size: 1.5em;
+}
